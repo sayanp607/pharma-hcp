@@ -1,5 +1,6 @@
-# Ignore dataset files (since they are too large for Git)
+# Ignore large dataset files (but allow our project dataset)
 *.csv
+!synthetic_hcp_pharma.csv
 
 # Ignore Jupyter Notebook checkpoints
 .ipynb_checkpoints/
